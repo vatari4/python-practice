@@ -1,4 +1,4 @@
-ef golden_ratio(i):
+def golden_ratio(i):
     a, b = 0, 1
     n = 1
     while n <= i:

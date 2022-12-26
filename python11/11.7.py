@@ -1,1 +1,2 @@
-print('\n'.join(re.split(r'\s+', s)))
+print('\n'.join(input().split()))
+

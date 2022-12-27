@@ -19,6 +19,4 @@ def main():
  
  
 print(discriminant(1,2,1))
-print(smaller_root(3,1))
-print(larger_root(3, 1))
-main()
+

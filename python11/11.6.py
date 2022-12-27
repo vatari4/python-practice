@@ -6,3 +6,4 @@ for i in range(n):
        continue
    a.append(f)
 print(', '.join(a))
+#fixed

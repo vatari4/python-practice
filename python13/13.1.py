@@ -22,3 +22,4 @@ if name in laureates:
 else:
    print('Нет совпадений')
 
+

@@ -20,5 +20,5 @@ def numberInEnglish(n):
         result = result + l2[n % 100 // 10 - 2] + ' ' + l1[n % 10 - 1]
     return result
  
- 
+
 print(numberInEnglish(3))

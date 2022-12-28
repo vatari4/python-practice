@@ -1,7 +1,7 @@
 def roots_of_quadratic_equation(a, b, c):
-    D = b ** 2 - 4 * a * c  # дискриминант
-    x1 = (-b + D ** 0.5) / (2 * a)  # первый корень
-    x2 = (-b - D ** 0.5) / (2 * a)  # второй корень
+    D = b ** 2 - 4 * a * c
+    x1 = (-b + D ** 0.5) / (2 * a)
+    x2 = (-b - D ** 0.5) / (2 * a)
 
     if x1 == x2:
         return x1
@@ -19,4 +19,4 @@ def solve(*coeffs):
         return 0
 
 
-print(sorted(solve(1, 2, 1)))
+print(solve(1, 2, 1))
